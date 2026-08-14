@@ -1,0 +1,38 @@
+[
+  {
+    "incident_id": "inc-001",
+    "root_cause": "Database connection pool exhausted due to increased traffic",
+    "severity": "critical",
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positives": 3,
+      "false_positives": 0
+    }
+  },
+  {
+    "incident_id": "inc-002",
+    "root_cause": "Payment gateway API experiencing degradation",
+    "severity": "high",
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positives": 2,
+      "false_positives": 0
+    }
+  },
+  {
+    "incident_id": "inc-003",
+    "root_cause": "Message queue backed up due to slow consumer",
+    "severity": "medium",
+    "rag_metrics": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positives": 2,
+      "false_positives": 0
+    }
+  }
+]
